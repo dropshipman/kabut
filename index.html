@@ -328,7 +328,7 @@
                 generateDotCombinations(prefix + suffix[0], suffix.substring(1));
 
                 if (prefix.length > 0) {
-                    generateDotCombinations(prefix + '.' + suffix[0], suffix.substring(1));
+                    generateDotCombinations(prefix + ' ' + suffix[0], suffix.substring(1));
                 }
             }
 
@@ -450,4 +450,5 @@
     </script>
 </body>
 </html>
+
 
